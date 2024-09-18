@@ -10,13 +10,13 @@
     <div class="container">
         {%include navbar.html %}
         <div class="welcome_card">
-            <img src="./assets/images/bh_logo.svg" alt="" style="padding-bottom: 0px;">
+            <img src="{{'/assets/images/bh_logo.svg' | prepend:site.baseurl }}" alt="" style="padding-bottom: 0px;">
             <h1>{{ site.data.config.name}}</h1>
             <p>{{ site.data.config.description}}</p>
         <div style="padding-top: 10px;">
-        <a class="social-icon" href="{{ site.data.config.google_scholar }}" ><img src="{{'./assets/icons/google-scholar.svg' | baseurl }}" alt="Twitter"></a>
-        <a class="social-icon" href="https://github.com/{{ site.data.config.github_user }}" ><img src="{{'./assets/icons/github.svg' | baseurl }}" alt="Github"></a>
-        <a class="social-icon" href="mailto:{{ site.data.config.email }}" ><img src="{{ './assets/icons/at-sign.svg' | baseurl}}" alt="Mail"></a>
+        <a class="social-icon" href="{{ site.data.config.google_scholar }}" ><img src="{{'/assets/icons/google-scholar.svg' | prepend:site.baseurl }}" alt="Twitter"></a>
+        <a class="social-icon" href="https://github.com/{{ site.data.config.github_user }}" ><img src="{{'/assets/icons/github.svg' | prepend:site.baseurl }}" alt="Github"></a>
+        <a class="social-icon" href="mailto:{{ site.data.config.email }}" ><img src="{{ '/assets/icons/at-sign.svg' | prepend:site.baseurl}}" alt="Mail"></a>
         </div>
     </div>
     </div>
