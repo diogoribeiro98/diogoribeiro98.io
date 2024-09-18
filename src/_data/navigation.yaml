@@ -1,4 +1,4 @@
 - name: About
-  link: /pages/about.html
+  link: ./pages/about.html
 - name: Research
-  link: /pages/research.html
+  link: ./pages/research.html
