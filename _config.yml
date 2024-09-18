@@ -2,6 +2,7 @@
 
 title: "Jekyll Actions Demo"
 source: src
+url: test.com
 baseurl: 
 
 disable_disk_cache: true
