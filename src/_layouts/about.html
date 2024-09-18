@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+    <div class="container">
+        {%include navbar.html %}
+        <div class="about">
+            <div class="text-section">
+                <h1>{{page.title}}</h1>
+                <p>{{content}}</p>
+            </div>
+            <div class="image-section">
+                <img style="max-width: 400px;" src="{{ 'assets/images/profile_picture.jpg' | relative_url }}" alt="Placeholder Image">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
