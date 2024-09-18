@@ -2,8 +2,7 @@
 
 title: "Jekyll Actions Demo"
 source: src
-url: test.com
-baseurl: 
+baseurl: /diogoribeiro98.io
 
 disable_disk_cache: true
 ignore_theme_config: true
