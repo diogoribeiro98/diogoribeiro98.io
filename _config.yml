@@ -3,3 +3,4 @@
 title: "Jekyll Actions Demo"
 
 source: src
+destination: docs
