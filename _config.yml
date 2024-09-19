@@ -1,8 +1,6 @@
 # _config.yml
 
 title: "Jekyll Actions Demo"
-src: /me
-baseurl: /me
 
 disable_disk_cache: true
 ignore_theme_config: true
