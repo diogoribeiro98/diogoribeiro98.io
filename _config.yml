@@ -1,7 +1,7 @@
 # _config.yml
 
 title: "Jekyll Actions Demo"
-src: me
+src: /me
 baseurl: /me
 
 disable_disk_cache: true
